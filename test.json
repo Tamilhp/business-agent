@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+        "business-agent": {
+            "command": "/Users/tamil/.local/bin/uv",
+            "args": [
+                "--directory",
+                "/Users/tamil/work/business-agent",
+                "run",
+                "mcp_server.py"
+            ]
+        },
+        "tavily-mcp": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "tavily-mcp@0.1.2"
+            ],
+            "env": {
+                "TAVILY_API_KEY": "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"
+            }
+        }
+    }
+}
